@@ -12813,7 +12813,7 @@
             "73a3fd68a9": "Recolher repositório",
             "81cd37af99": "Principal",
             "888dad8c55": "Carregando…",
-            "92924a14e3": "Revisar workspaces inativos ({{value0}})",
+            "92924a14e3": "Limpar workspaces",
             "93b0de3c21": "Reiniciar",
             "946724a70a": "O workspace principal não pode ser excluído.",
             "946d9f94d0": "Cancelar",
@@ -13286,16 +13286,21 @@
           },
           "TabBarQuickCommandsButton": {
             "15529ede69": "Editar {{value0}}",
+            "192a4616a5": "Ações de comandos rápidos",
             "196593b6a9": "Remover {{value0}}",
             "1d411fb6a5": "Salvar um comando rápido para este repo",
             "20bbd75896": "Nenhum comando",
             "3220e2da27": "Este comando rápido será removido da sua lista salva.",
             "37e1bb90ce": "Executar: {{value0}}",
+            "53b17a4b1b": "Não foi possível copiar",
+            "69a1441a21": "Nada para copiar",
             "77ac113df0": "Iniciar {{value0}}: {{value1}}",
             "7b1c9d6ae1": "Executar",
             "85482c57bc": "Executar comando rápido",
+            "8d525e5f15": "Copiado",
             "8f1e971966": "Adicionar comando rápido",
             "a2c7a33831": "Comando",
+            "a9a564b7e7": "Copiar {{value0}}",
             "b4e7f9a2c1": "Nenhum comando corresponde",
             "b775303755": "Executar comando rápido: {{value0}}",
             "b82e237a4b": "Mais comandos rápidos",
@@ -13659,10 +13664,13 @@
           "commands": {
             "TerminalQuickCommandActionToggle": {
               "b0d58e37ed": "Prompt do Agente",
-              "b5ea4d64f6": "Comando de Terminal"
+              "b5ea4d64f6": "Comando de Terminal",
+              "terminal_short": "Terminal",
+              "agent_short": "Agente"
             },
             "TerminalQuickCommandAppendEnterSwitch": {
               "5fa607d807": "Anexar Enter",
+              "767e4be3e3": "Anexar Enter — executar imediatamente",
               "c936c2d6d2": "Enviar imediatamente em vez de apenas inserir o texto.",
               "e4e5fed3b3": "Alternar anexar Enter"
             },
@@ -13681,7 +13689,11 @@
               "e604bd40d6": "Suporta skills, caminhos de arquivo e comandos integrados como",
               "ec8f081919": "Ação",
               "ed04233b3e": "Salve comandos de terminal ou prompts de agente para acesso rápido.",
-              "f9b184fc16": "Editar Comando Rápido"
+              "f9b184fc16": "Editar Comando Rápido",
+              "command_label": "Comando",
+              "agent_toolbar_hint": "Suporta /goal, skills e caminhos",
+              "agent_footer_hint": "Prompts com várias linhas funcionam bem — mantenha-os focados.",
+              "resize_hint": "Arraste o canto para redimensionar"
             },
             "TerminalQuickCommandDialogFooter": {
               "28370f16b9": "Cancelar",
