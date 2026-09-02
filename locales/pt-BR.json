@@ -6398,7 +6398,13 @@
           "codexConfigSyncMissingSource": "O Codex ainda está usando as configurações da última sincronização porque {{value0}} está ausente. Restaure esse arquivo para retomar a sincronização.",
           "codexConfigSyncBlankSource": "O Codex ainda está usando as configurações da última sincronização porque {{value0}} está vazio. Isso é esperado enquanto uma pasta sincronizada termina de baixar.",
           "codexConfigSyncManagedHomeUnavailable": "Orca could not read this account’s Codex files just now, so settings may not be syncing. This usually clears on its own — antivirus or a backup tool briefly locks them.",
-          "codexConfigSyncUnreadableSource": "O Codex ainda está usando as configurações da última sincronização porque {{value0}} não pôde ser lido. Verifique as permissões desse arquivo."
+          "codexConfigSyncUnreadableSource": "O Codex ainda está usando as configurações da última sincronização porque {{value0}} não pôde ser lido. Verifique as permissões desse arquivo.",
+          "antigravityTitle": "Antigravity",
+          "antigravityDescription": "Configure as opções do provedor Antigravity.",
+          "useAntigravityCredentials": "Usar credenciais do Antigravity",
+          "useAntigravityCredentialsDescription": "Extrai credenciais OAuth da sua instalação local do Antigravity para autenticar com o Google. Isso usa credenciais emitidas para o app Antigravity, não para o Orca. Pode parar de funcionar se o Google atualizar o Antigravity. Use por sua conta e risco.",
+          "useAntigravityCredentialsExp": "Usar credenciais do Antigravity (experimental)",
+          "useAntigravityCredentialsWithRuntime": "Extrai credenciais OAuth da sua instalação local do Antigravity para autenticar com o Google em {{value0}}. Isso usa credenciais emitidas para o app Antigravity, não para o Orca. Pode parar de funcionar se o Google atualizar o Antigravity. Use por sua conta e risco."
         },
         "AdvancedPane": {
           "40b29e0bf3": "Reiniciar",
@@ -8765,7 +8771,10 @@
             "d2c6a0e8f1": "grok",
             "c1b5f9d7e0": "xai",
             "b0a4e8c6d9": "oauth",
-            "a9f3d7b5c8": "login"
+            "a9f3d7b5c8": "login",
+            "useAntigravityCredentials": "Usar credenciais do Antigravity",
+            "useAntigravityCredentialsDescription": "Extrai credenciais OAuth da sua instalação local do Antigravity para autenticar com o Google.",
+            "antigravity": "antigravity"
           }
         },
         "advanced": {
