@@ -13653,22 +13653,22 @@
                 "checklist": {
                   "localized": {
                     "copy": {
-                      "ec0a363633": "Multi-task",
-                      "62bac8f43c": "Work in 2 different worktrees at once. Each one is isolated (even in the same project). Perfect for working on 2 features at once.",
-                      "908898c3ee": "Use Orca's browser",
-                      "43781563c3": "Browse your web app without leaving Orca. Grab any element and send its exact source and styles to an agent with one click.",
-                      "29aa2c2077": "Turn on notifications",
-                      "71bd9a8c95": "Know the moment an agent finishes, needs attention, or gets blocked.",
-                      "46db810da8": "Choose your default agent",
-                      "b8e5bae17f": "Start new work faster with your preferred agent already selected.",
-                      "fee5557b02": "Enable Orca CLI",
-                      "7bcb4097fa": "Register the Orca shell command and install agent skills for browser, computer, and orchestration workflows.",
-                      "ad342dd4c6": "Connect integrations",
-                      "06fe30fdb0": "Start an agent from a task in one click and keep PR status in view.",
-                      "eddc532e58": "Automate workspace setup",
-                      "56049b74c2": "Run install and setup commands automatically so every new worktree is ready for agents.",
-                      "2cf795433b": "Start work in multiple repos",
-                      "42525ba8a4": "Bring your key repos into Orca so you can start agent work without hunting for folders."
+                      "ec0a363633": "Multitarefa",
+                      "62bac8f43c": "Trabalhe em 2 worktrees diferentes ao mesmo tempo. Cada um é isolado (mesmo no mesmo projeto). Perfeito para trabalhar em 2 recursos ao mesmo tempo.",
+                      "908898c3ee": "Usar o navegador do Orca",
+                      "43781563c3": "Navegue na sua aplicação web sem sair do Orca. Selecione qualquer elemento e envie seu código-fonte e estilos exatos para um agente com um clique.",
+                      "29aa2c2077": "Ativar notificações",
+                      "71bd9a8c95": "Saiba no instante em que um agente terminar, precisar de atenção ou for bloqueado.",
+                      "46db810da8": "Escolha seu agente padrão",
+                      "b8e5bae17f": "Inicie novos trabalhos mais rápido com seu agente preferido já selecionado.",
+                      "fee5557b02": "Ativar o Orca CLI",
+                      "7bcb4097fa": "Registre o comando de terminal do Orca e instale skills de agente para fluxos de navegador, computador e orquestração.",
+                      "ad342dd4c6": "Conectar integrações",
+                      "06fe30fdb0": "Inicie um agente a partir de uma tarefa com um clique e mantenha o status do PR sempre visível.",
+                      "eddc532e58": "Automatizar configuração do workspace",
+                      "56049b74c2": "Execute comandos de instalação e configuração automaticamente para que cada novo worktree esteja pronto para os agentes.",
+                      "2cf795433b": "Comece a trabalhar em múltiplos repositórios",
+                      "42525ba8a4": "Traga seus principais repositórios para o Orca para começar o trabalho com agentes sem precisar procurar pastas."
                     }
                   }
                 }
