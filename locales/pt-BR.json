@@ -707,7 +707,12 @@
             "worktreeHandoffSummary": "Transferir o trabalho para um agente que já está em execução em outra branch.",
             "childSequenceSummary": "Use agentes filhos em sequência quando cada fase depende da anterior.",
             "childParallelSummary": "Divida tarefas de investigação ou implementação que não se sobrepõem entre agentes filhos.",
-            "prSplitSummary": "Dê a cada agente filho seu próprio worktree para que a implementação paralela continue revisável."
+            "prSplitSummary": "Dê a cada agente filho seu próprio worktree para que a implementação paralela continue revisável.",
+            "handoffPrompt": "Use {{value0}} para repassar esta tarefa de configurações de faturamento para o agente Claude ocioso. Inclua o objetivo, o contexto atual e o que deve ser finalizado a seguir.",
+            "worktreeHandoffPrompt": "Use {{value0}} para repassar esta limpeza de configurações para o agente no worktree settings-polish. Envie o objetivo, os arquivos relevantes e o resultado esperado.",
+            "childSequencePrompt": "Use {{value0}} para executar esta refatoração de autenticação em fases: planejamento, backend, interface e testes. Inicie cada agente filho após a conclusão da fase anterior.",
+            "childParallelPrompt": "Use {{value0}} para dividir esta refatoração de autenticação entre agentes filhos paralelos: contrato da API, chamadas no backend, fluxo de interface e lacunas de teste.",
+            "prSplitPrompt": "Use {{value0}} para dividir esta atualização de onboarding em PRs menores, cada uma em seu próprio worktree filho: estado de configuração, interface de configurações, textos e testes."
           }
         }
       },
@@ -7525,8 +7530,8 @@
           "07641b9768": "Skill de orquestração",
           "2aacdb0517": "Coordene agentes de código em transferências de contexto, transferências de worktree e trabalho de agentes filhos.",
           "191ac34567": "Orquestração de Agentes",
-          "nestedWorkerDepthTitle": "Nested worker depth",
-          "nestedWorkerDepthDescription": "How many generations of dispatched workers may spawn their own workers. 1 keeps the agent tree flat: a coordinator dispatches workers, and those workers do not dispatch."
+          "nestedWorkerDepthTitle": "Profundidade de workers aninhados",
+          "nestedWorkerDepthDescription": "Quantas gerações de workers despachados podem criar seus próprios workers. 1 mantém a árvore plana: o coordenador despacha workers e esses workers não despacham."
         },
         "OrchestrationSetupCard": {
           "e7d2a5146c": "Permite que os agentes transfiram contexto e coordenem o trabalho através do Orca.",
