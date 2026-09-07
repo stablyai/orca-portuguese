@@ -4,13 +4,13 @@ Official Brazilian Portuguese (pt-BR) language pack for [Orca](https://github.co
 
 ## Status
 
-Near-complete coverage of Orca's translatable UI catalog:
+The catalog contains **12,524 strings**, covering settings, sidebars, editor,
+terminal, GitHub/GitLab/Linear/Jira integrations, onboarding, mobile companion
+app, dashboard, system tray, and application menu.
 
-- **12,274 / 12,275** translatable strings translated (99.99%)
-- Settings, sidebars, editor, terminal, GitHub/GitLab/Linear/Jira integrations,
-  onboarding, mobile companion app, dashboard, system tray, and application menu
-- 1 remaining key falls back to English automatically (no user-facing impact,
-  see [Known limitations](#known-limitations))
+Missing translations fall back to Orca's English catalog automatically.
+Coverage varies with the Orca version as new UI strings are added. Inline CSS
+is omitted so the app uses its complete built-in styles.
 
 ## Installation
 

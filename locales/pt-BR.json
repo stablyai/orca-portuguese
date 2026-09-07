@@ -271,7 +271,12 @@
           "someone": "alguém",
           "to": "para",
           "unassigned": "removeu a atribuição"
-        }
+        },
+        "checkOpenInBrowser": "Abrir no navegador",
+        "e15a8b77ef": "Nenhum detalhe inline disponível para esta verificação.",
+        "e45324fbed": "Falha ao carregar detalhes da verificação.",
+        "dcb3c546fe": "Tentar novamente",
+        "4aecf121e7": "Fechar"
       },
       "GitLabItemDialog": {
         "007423f585": "Conteúdo do diff indisponível.",
@@ -772,7 +777,9 @@
         "f4fe47c2bb": "Resolvido",
         "ff84e1f54c": "{{value0}} {{value1}} como visto",
         "filesRetry": "Tentar novamente",
-        "filesUnavailable": "Não foi possível carregar os arquivos alterados."
+        "filesUnavailable": "Não foi possível carregar os arquivos alterados.",
+        "5df7c41d2a": "Tentar novamente",
+        "77482513f8": "Fechar"
       },
       "QuickOpen": {
         "1cb6ef47b7": "Ir para arquivo...",
@@ -1628,6 +1635,13 @@
               "name": "Auditoria de repositório em dias úteis",
               "prompt": "Revise a saúde do repositório. Verifique atualizações de dependências, testes com falha, status de lint/typecheck e alterações abertas arriscadas. Resuma as descobertas e sugira a próxima ação."
             }
+          },
+          "list": {
+            "last": {
+              "run": {
+                "done": "Concluído"
+              }
+            }
           }
         },
         "external": {
@@ -1645,6 +1659,18 @@
           "placeholder": "Pesquise por nome, projeto ou prompt",
           "clear": "Limpar pesquisa",
           "tooLongShort": "Muito longo"
+        },
+        "AutomationPromptDisclosure": {
+          "showLess": "Mostrar menos",
+          "showMore": "Mostrar mais"
+        },
+        "AutomationListFilterMenu": {
+          "all": "Todos"
+        },
+        "hostStatus": {
+          "action": {
+            "retry": "Tentar novamente"
+          }
         }
       },
       "browser": {
@@ -1813,6 +1839,18 @@
                 }
               }
             }
+          },
+          "annotate": {
+            "browser": {
+              "page": {
+                "annotation": {
+                  "tray": {
+                    "c16f932cb3": "Salvar",
+                    "024467ceac": "Cancelar"
+                  }
+                }
+              }
+            }
           }
         },
         "profile": {
@@ -1823,6 +1861,11 @@
                 "04af3dc12b": "Use agente de usuário não modificado"
               }
             }
+          }
+        },
+        "webauthn": {
+          "account": {
+            "cancel": "Cancelar"
           }
         }
       },
@@ -3046,7 +3089,7 @@
             "0235b268b2": "Ainda não concluído",
             "13294d3405": "Concluído",
             "1a6a7d6c80": "Configuração",
-            "713cc529a5": "Marcos",
+            "713cc529a5": "Checklist",
             "b1f1981c5e": "Ver tarefas"
           },
           "FeatureWallSetupWorkflowActions": {
@@ -3258,6 +3301,30 @@
                   "00087eecb2": "Conectado · {{value0}}",
                   "b94ec70eda": "Rastreamento não configurado",
                   "cc39a87288": "Conectado · Padrão do sistema"
+                }
+              },
+              "setup": {
+                "checklist": {
+                  "localized": {
+                    "copy": {
+                      "ec0a363633": "Multitarefa",
+                      "62bac8f43c": "Trabalhe em 2 worktrees diferentes ao mesmo tempo. Cada um é isolado (mesmo no mesmo projeto). Perfeito para trabalhar em 2 recursos ao mesmo tempo.",
+                      "908898c3ee": "Usar o navegador do Orca",
+                      "43781563c3": "Navegue na sua aplicação web sem sair do Orca. Selecione qualquer elemento e envie seu código-fonte e estilos exatos para um agente com um clique.",
+                      "29aa2c2077": "Ativar notificações",
+                      "71bd9a8c95": "Saiba no instante em que um agente terminar, precisar de atenção ou for bloqueado.",
+                      "46db810da8": "Escolha seu agente padrão",
+                      "b8e5bae17f": "Inicie novos trabalhos mais rápido com seu agente preferido já selecionado.",
+                      "fee5557b02": "Ativar o Orca CLI",
+                      "7bcb4097fa": "Registre o comando de terminal do Orca e instale skills de agente para fluxos de navegador, computador e orquestração.",
+                      "ad342dd4c6": "Conectar integrações",
+                      "06fe30fdb0": "Inicie um agente a partir de uma tarefa com um clique e mantenha o status do PR sempre visível.",
+                      "eddc532e58": "Automatizar configuração do workspace",
+                      "56049b74c2": "Execute comandos de instalação e configuração automaticamente para que cada novo worktree esteja pronto para os agentes.",
+                      "2cf795433b": "Comece a trabalhar em múltiplos repositórios",
+                      "42525ba8a4": "Traga seus principais repositórios para o Orca para começar o trabalho com agentes sem precisar procurar pastas."
+                    }
+                  }
                 }
               }
             }
@@ -4025,7 +4092,7 @@
             "c791677f2f": "Retomar",
             "cf3f98fa3f": "Desconectado",
             "d047197480": "GitHub · Linear",
-            "d33d7a9c29": "orca  ·  feat/mobile-page",
+            "d33d7a9c29": "orca · feat/mobile-page",
             "e27fdaee51": "Novo workspace"
           },
           "TerminalSlide": {
@@ -5008,7 +5075,8 @@
             "e4aca40024": "Excluir Workspace",
             "eefd50457e": "Excluindo...",
             "ef064cb7c3": "default",
-            "fa3ee9a515": "fechado"
+            "fa3ee9a515": "fechado",
+            "closeDraft": "Fechar"
           },
           "PluginPanel": {
             "loadFailed": "Não foi possível carregar o painel do plugin.",
@@ -5504,7 +5572,8 @@
                 "f6a40263ff": "Salvar",
                 "f8a2c91d04": "Colocar na fila do agente",
                 "fd46a70f1a": "Iniciado",
-                "checkDetailsLoadFailed": "Falha ao carregar detalhes da verificação."
+                "checkDetailsLoadFailed": "Falha ao carregar detalhes da verificação.",
+                "dcb3c546fe": "Tentar novamente"
               },
               "empty": {
                 "state": {
@@ -5687,6 +5756,13 @@
                   "d9dd7c6687": "Não foi possível atualizar a partir do GitHub. Mostrando o último status conhecido.",
                   "de088015e8": "Não foi possível atualizar. O GitHub está limitando as requisições. Mostrando o último status conhecido.",
                   "e9d681894a": "Limite de requisições do GitHub atingido"
+                }
+              }
+            },
+            "pr": {
+              "stack": {
+                "confirmation": {
+                  "84f6f5b9eb": "Incluídos: {{numbers}}. "
                 }
               }
             }
@@ -6178,7 +6254,13 @@
           "remoteScopeAccounts": "Mostrando contas gerenciadas por {{value0}}. Adicione ou reautentique contas nesse servidor.",
           "remoteScopeAuthContext": "Cada conta mantém seu próprio contexto de login em {{value0}}.",
           "remoteScopeLocalAccountsKept": "As contas gerenciadas neste desktop continuam inalteradas. Volte o runtime padrão para Local desktop para visualizá-las.",
-          "remoteServerFallback": "o servidor remoto"
+          "remoteServerFallback": "o servidor remoto",
+          "antigravityTitle": "Antigravity",
+          "antigravityDescription": "Configure as opções do provedor Antigravity.",
+          "useAntigravityCredentials": "Usar credenciais do Antigravity",
+          "useAntigravityCredentialsDescription": "Extrai credenciais OAuth da sua instalação local do Antigravity para autenticar com o Google. Isso usa credenciais emitidas para o app Antigravity, não para o Orca. Pode parar de funcionar se o Google atualizar o Antigravity. Use por sua conta e risco.",
+          "useAntigravityCredentialsExp": "Usar credenciais do Antigravity (experimental)",
+          "useAntigravityCredentialsWithRuntime": "Extrai credenciais OAuth da sua instalação local do Antigravity para autenticar com o Google em {{value0}}. Isso usa credenciais emitidas para o app Antigravity, não para o Orca. Pode parar de funcionar se o Google atualizar o Antigravity. Use por sua conta e risco."
         },
         "AdvancedNetworkSettingsSection": {
           "0adfce9fa7": "Compatível com URLs http, https, socks, socks4 e socks5.",
@@ -6887,7 +6969,9 @@
             "defaultViewTerminal": "Chat no terminal",
             "description": "Veja a prévia da interface de chat para sessões de terminal de agentes compatíveis.",
             "title": "Interface de Chat",
-            "toggleLabel": "Ativar/desativar Interface de Chat"
+            "toggleLabel": "Ativar/desativar Interface de Chat",
+            "structuredCopy": "Ative o runtime de chat estruturado gerenciado pelo host para Codex e Claude. Quando desativado, o chat continua usando o terminal.",
+            "structuredScope": "Por enquanto, apenas sessões locais. WSL e hosts de execução remotos (incluindo SSH) continuam usando o chat no terminal, e o Windows também o utiliza quando o Orca não consegue ler os horários de início dos processos."
           },
           "newWorktreeCardStyle": {
             "copy": "Veja a prévia do novo layout do cartão de worktree, posicionamento de metadados, opções do menu de exibição do cartão e apresentação de status.",
@@ -7548,7 +7632,9 @@
           "7bc082f4de": "Copiar comando de instalação",
           "832f1f3ee6": "Prefere usar seu próprio terminal?",
           "9bedd2a6e5": "Permite que os agentes transfiram contexto e coordenem o trabalho através do Orca.",
-          "ae79504732": "Como usar"
+          "ae79504732": "Como usar",
+          "nestedWorkerDepthTitle": "Profundidade de workers aninhados",
+          "nestedWorkerDepthDescription": "Quantas gerações de workers despachados podem criar seus próprios workers. 1 mantém a árvore plana: o coordenador despacha workers e esses workers não despacham."
         },
         "OrchestrationSetupCard": {
           "2777ff0fdc": "Skill de orquestração",
@@ -8483,7 +8569,8 @@
           "cab3d5f5a5": "Senha de {{value0}}",
           "ce4fdf7914": "Digite a frase secreta de",
           "d5a234456f": "Cancelar",
-          "dbf9b6f2d0": "Digite a senha de"
+          "dbf9b6f2d0": "Digite a senha de",
+          "c624f64b86": "Continuar"
         },
         "SshTargetCard": {
           "0e53e9f8e8": "Testar",
@@ -9045,7 +9132,10 @@
             "e949b08ffb": "limite de taxa",
             "f2d666a886": "opcional",
             "f4a8c2e1b7": "Uso do Grok (xAI)",
-            "f8374c3151": "Cole o cookie de sessão do platform.minimax.io para buscar o limite de taxa localmente."
+            "f8374c3151": "Cole o cookie de sessão do platform.minimax.io para buscar o limite de taxa localmente.",
+            "useAntigravityCredentials": "Usar credenciais do Antigravity",
+            "useAntigravityCredentialsDescription": "Extrai credenciais OAuth da sua instalação local do Antigravity para autenticar com o Google.",
+            "antigravity": "antigravity"
           }
         },
         "advanced": {
@@ -9073,9 +9163,9 @@
           "95d3031db2": "Mantém este computador e a tela ativos enquanto os agentes trabalham. O comportamento ao fechar a tampa segue as configurações de energia deste dispositivo.",
           "a42f6fbdd8": "Mantém este computador e a tela ativos enquanto os agentes trabalham. O Orca também solicita que este dispositivo permaneça ativo com a tampa fechada, respeitando a política de energia dele.",
           "e5995ce268": "Manter o computador ativo enquanto os agentes trabalham",
-          "modeDescriptionWindows": "Escolha Ativado, Automático enquanto os agentes estão trabalhando ou Desativado. O comportamento de fechamento da tampa segue as configurações de energia deste dispositivo.",
-          "modeTitle": "Mantenha o computador acordado",
-          "modeDescriptionDefault": "Escolha Ativado, Automático enquanto os agentes estão trabalhando ou Desativado. A Orca também pede que este dispositivo fique acordado quando a tampa estiver fechada, sujeito à sua política de energia."
+          "modeDescriptionWindows": "Escolha Ativado, Automático enquanto os agentes trabalham ou Desativado. O comportamento ao fechar a tampa segue as configurações de energia deste dispositivo.",
+          "modeTitle": "Manter o computador ativo",
+          "modeDescriptionDefault": "Escolha Ativado, Automático enquanto os agentes trabalham ou Desativado. O Orca também solicita que este dispositivo permaneça ativo quando a tampa estiver fechada, respeitando a política de energia dele."
         },
         "agent-generated-tab-title-copy": {
           "19ad21615a": "Gerar títulos de aba automaticamente",
@@ -10949,9 +11039,9 @@
           "description": "Agende o trabalho do agente e escolha se as automações aparecem na barra lateral."
         },
         "AgentAwakeSetting": {
-          "on": "Sobre",
-          "auto": "Auto",
-          "off": "Desligado"
+          "on": "Ativado",
+          "auto": "Automático",
+          "off": "Desativado"
         },
         "PluginsSettingsSection": {
           "title": "Plug-ins",
@@ -10995,6 +11085,16 @@
             "permissions": "permissões de plug-in",
             "logs": "registros de plug-ins",
             "development": "plug-ins de desenvolvimento"
+          }
+        },
+        "shareSkills": {
+          "refreshLinks": "Atualizar"
+        },
+        "bitbucket": {
+          "credentials": {
+            "dialog": {
+              "cancel": "Cancelar"
+            }
           }
         }
       },
@@ -11580,7 +11680,9 @@
           "5c9c7c16aa": "Adicione um projeto para criar workspaces",
           "92154beb7e": "Novo workspace",
           "a30e34eb5c": "Fechar painel de workspaces",
-          "ca6f729da2": "Novo workspace ({{value0}})"
+          "ca6f729da2": "Novo workspace ({{value0}})",
+          "projects": "Projetos",
+          "workspaces": "Workspaces"
         },
         "SidebarHostScopeStrip": {
           "backToAll": "Todos os hosts",
@@ -11629,7 +11731,7 @@
           "d396773ef0": "verificando",
           "e565171a7c": "Atalhos de Teclado",
           "eb9884e55b": "Discord",
-          "f8a2c91d4e": "Marcos"
+          "f8a2c91d4e": "Checklist"
         },
         "SidebarToolbar": {
           "19e32d0e5f": "Abrir seletor de pasta para adicionar um projeto",
@@ -11707,7 +11809,6 @@
           "projectSshHost": "SSH do projeto",
           "showSection": "Mostrar"
         },
-        "SshDisconnectedDialog": {},
         "SshTargetRow": {
           "4677394048": "Conectando…",
           "75ad429b5d": "Conectar"
@@ -12258,6 +12359,13 @@
         "worktreeIssueDisplacement": {
           "9c4b7e1f60": "GitHub#{{value}}",
           "3f61c0a8d2": "Linear {{value}}"
+        },
+        "PreservedBranchBatchReviewDialog": {
+          "38c947f7c5": "Selecionar tudo",
+          "285e1e4882": "Cancelar"
+        },
+        "WorktreeVisibilitySourceList": {
+          "add": "Adicionar"
         }
       },
       "skills": {
@@ -12386,7 +12494,54 @@
           "e46e162e2e": "de",
           "ea72d6185b": "Não foi possível escanear as skills",
           "f43ad6edf3": "Skills",
-          "fb6bf60b52": "Claude"
+          "fb6bf60b52": "Claude",
+          "allSources": "Todos",
+          "retry": "Tentar novamente"
+        },
+        "SkillShareDialog": {
+          "30985d4fc0": "Cancelar",
+          "3af85f6add": "Concluído"
+        },
+        "SkillInstallDialog": {
+          "d198ec91e5": "Fechar"
+        },
+        "SkillInstallManagementDialog": {
+          "8095927ff3": "Fechar",
+          "e91af0079f": "Remover"
+        },
+        "SkillBundleInstallFlow": {
+          "01c5a13e01": "Fechar"
+        },
+        "SkillBundleInstallReview": {
+          "01c5a11e0d": "Selecionar tudo"
+        },
+        "SkillRow": {
+          "viewDetails": "Ver detalhes"
+        },
+        "SkillSelectionBar": {
+          "clear": "Limpar"
+        },
+        "description": {
+          "showLess": "Mostrar menos",
+          "showMore": "Mostrar mais"
+        },
+        "install": {
+          "rowUpdate": "Atualizar",
+          "rowNew": "Novo",
+          "selectAll": "Selecionar tudo"
+        },
+        "SkillsSelectionHeader": {
+          "clear": "Limpar"
+        },
+        "SkillDetailDialog": {
+          "copy": "Copiar"
+        },
+        "managedInstall": {
+          "cancel": "Cancelar",
+          "remove": "Remover"
+        },
+        "SkillDelete": {
+          "placementJoin": " e "
         }
       },
       "source": {
@@ -13125,38 +13280,45 @@
           },
           "tooltip": {
             "0d8d7cfe15": "Esperando pela sessão do Claude",
-            "1292d4f2ee": "Não foi possível obter o uso",
-            "1804cd8c3f": "Waiting for Claude session",
-            "20ad66aed1": "Next expires in {{value0}}",
-            "252c096536": "Mensal",
-            "2c35eca8d4": "Sessão",
-            "3d3c9c0c1f": "Usage unavailable",
-            "42fdd4da1d": "Claude usage will refresh after the live Claude terminal rotates its credentials.",
+            "1292d4f2ee": "Indisponível",
+            "1804cd8c3f": "Atualizando login",
+            "20ad66aed1": "Expira em {{value0}}",
+            "252c096536": "Semanal",
+            "2c35eca8d4": "Não foi possível obter o uso",
+            "3d3c9c0c1f": "O uso do Claude será atualizado após o terminal ativo do Claude renovar as credenciais.",
+            "42fdd4da1d": "O login do Claude está sendo atualizado. As sessões do agente ainda podem estar conectadas.",
             "45198c7d95": "1 redefinição de limite de taxa disponível",
-            "6cf9eaed10": "O próximo expira em {{value0}}",
-            "6d6df77f41": "% usado",
-            "7567cd1c6b": "Indisponível",
-            "7ad719c4bf": "Falha ao atualizar — mostrando dados em cache",
+            "6cf9eaed10": "Próximo expira em {{value0}}",
+            "6d6df77f41": "Nenhum dado disponível",
+            "7567cd1c6b": "Uso indisponível",
+            "7ad719c4bf": "Limitado",
             "7ec6e030a0": "Próximo expira agora",
-            "7f7f208060": "Nenhum dado disponível",
+            "7f7f208060": "Mensal",
             "8418ec448d": "O uso de {{value0}} não pôde ser atualizado. As sessões do agente ainda podem estar conectadas.",
-            "94038ad2fa": "Fable",
-            "a37e8c15d4": "Run Kimi to refresh",
-            "a7517cccb6": "Claude sign-in credentials could not be read.",
-            "a79c64f87e": "Semanal",
-            "a9a318b7a3": "Uso indisponível",
-            "bce421cba3": "Redefinições de limite de taxa {{value0}} disponíveis",
-            "bf2e739f18": "Network issue",
-            "c06c1d215d": "Claude sign-in is being refreshed. Agent sessions may still be signed in.",
-            "cabdc2a9e0": "Claude usage could not be refreshed because the network request failed.",
-            "cedb7b99e3": "Falha ao abrir o navegador",
-            "d1b7f509ac": "Run Grok to refresh",
-            "d1e442a9e5": "Next expires now",
-            "e2c6a4f917": "Claude usage is unavailable right now.",
-            "e740f92596": "Limitado",
-            "f8b8dbed85": "Sign-in unavailable",
-            "f8f0f9d8cc": "Refreshing sign-in",
-            "f90b3d7a16": "Run grok in a terminal on the computer running Orca and wait for it to start. If prompted, complete sign-in, then retry usage. You do not need to send a chat message."
+            "94038ad2fa": "Sessão",
+            "a37e8c15d4": "Execute kimi em um terminal no computador executando o Orca e aguarde inicializar, depois tente novamente.",
+            "a7517cccb6": "O uso do Claude está indisponível no momento.",
+            "a79c64f87e": "Fable",
+            "a9a318b7a3": "Falha ao atualizar — mostrando dados em cache",
+            "bce421cba3": "{{value0}} redefinições de limite de taxa disponíveis",
+            "bf2e739f18": "Login indisponível",
+            "c06c1d215d": "Não foi possível atualizar o uso do Claude porque a requisição de rede falhou.",
+            "cabdc2a9e0": "As credenciais de login do Claude não puderam ser lidas.",
+            "cedb7b99e3": "% usado",
+            "d1b7f509ac": "Execute grok em um terminal no computador executando o Orca e aguarde inicializar. Se solicitado, conclua o login e tente novamente.",
+            "d1e442a9e5": "Expira agora",
+            "e2c6a4f917": "Execute o Grok para atualizar",
+            "e740f92596": "Falha ao atualizar",
+            "f8b8dbed85": "Uso indisponível",
+            "f8f0f9d8cc": "Problema de rede",
+            "f90b3d7a16": "Execute o Kimi para atualizar",
+            "justNow": "agora mesmo",
+            "minutesAgo": "há {{value0}}m",
+            "hoursAgo": "há {{value0}}h",
+            "updatedTimeAgo": "Atualizado {{value0}}",
+            "notYetUpdated": "Ainda não atualizado",
+            "resetsNow": "Reinicia agora",
+            "resetsIn": "Reinicia em {{value0}}"
           },
           "usagePercentageLabel": {
             "remaining": "{{value0}}% usado",
@@ -13172,7 +13334,7 @@
             "title": "Cafeína",
             "offDescription": "Permitir comportamento normal de suspensão do sistema",
             "onDescription": "Mantenha este computador ativo continuamente",
-            "ariaLabel": "Cafeína, {{status}}"
+            "ariaLabel": "{{title}}, {{status}}"
           }
         }
       },
@@ -13658,6 +13820,10 @@
           "TerminalQuickCommandsSubmenu": {
             "3ccc7981bb": "Anfitrião indisponível",
             "54f29b7c0d": "Carregando anfitrião…"
+          },
+          "TerminalProcessExitOverlay": {
+            "close": "Fechar",
+            "restart": "Reiniciar"
           }
         },
         "quick": {
@@ -13765,7 +13931,7 @@
             "0b1766738a": "Repo",
             "0c6672f5e3": "Sugestões de limpeza ignoradas",
             "0e2d235c63": "Verificação de workspaces inativos concluída",
-            "0f00612b6d": "Espaço de trabalho {{value0}} removido{{value1}}",
+            "0f00612b6d": "workspace {{value0}} removido{{value1}}",
             "191f0bc98e": "Fechar",
             "1b18868569": "precisa de revisão",
             "1bffc07ba7": "Ver {{value0}}",
@@ -13970,7 +14136,8 @@
         "previewUnavailable": "Visualização indisponível",
         "actions": "Ações de artefato",
         "ArtifactDetailHeader": {
-          "publicLink": "Qualquer pessoa com este link pode visualizá-lo"
+          "publicLink": "Qualquer pessoa com este link pode visualizá-lo",
+          "close": "Fechar"
         },
         "previewUnavailableDescription": "Abra este artefato em seu navegador para visualizá-lo.",
         "openInBrowser": "Abrir no navegador",
@@ -14023,7 +14190,26 @@
           "update": "Atualizar conteúdo compartilhado"
         },
         "updatedAt": "{{when}} atualizado",
-        "expires": "O link expira {{when}}"
+        "expires": "O link expira {{when}}",
+        "ArtifactListSearchField": {
+          "placeholder": "Pesquisar..."
+        }
+      },
+      "BrowserCookieImportDisclosure": {
+        "title": "Logins do Google não são importados",
+        "description": "Faça login no Google diretamente no Orca."
+      },
+      "native": {
+        "chat": {
+          "NativeChatStructuredSession": {
+            "a5e7f14068": "Tentar novamente"
+          }
+        }
+      },
+      "browserPane": {
+        "workspaceDoc": {
+          "externalLinkCancel": "Cancelar"
+        }
       }
     },
     "hooks": {
@@ -14034,7 +14220,8 @@
         "16a21d6413": "A reconexão SSH exige credenciais interativas.",
         "386db94f3e": "O projeto de destino não está mais disponível.",
         "3ad7d77f57": "O workspace de destino está em um host diferente do alvo de execução desta automação.",
-        "59718b120b": "O workspace de destino não está mais disponível."
+        "59718b120b": "O workspace de destino não está mais disponível.",
+        "workspaceHostUnresolved": "O workspace de destino abrange mais de um host, portanto esta execução não possui um host exclusivo para usar."
       },
       "useComposerState": {
         "3db83fc58a": "Nenhum caminho de projeto disponível neste host para anexos.",
@@ -14168,7 +14355,13 @@
         "artifactsTitle": "Artefatos",
         "automationsDescription": "Agende o trabalho do agente e escolha se as automações aparecem na barra lateral.",
         "automationsTitle": "Automações",
-        "artifactsDescription": "Compartilhe arquivos HTML e Markdown com sua equipe e gerencie seus links públicos."
+        "artifactsDescription": "Compartilhe arquivos HTML e Markdown com sua equipe e gerencie seus links públicos.",
+        "shareSkillsTitle": "Compartilhar Skills",
+        "shareSkillsDescription": "Compartilhe suas skills com um link não listado. Qualquer pessoa com o link poderá instalá-las.",
+        "floatingWorkspaceWebDescription": "Abas globais de terminal e markdown."
+      },
+      "useInstalledAgentSkills": {
+        "unreadableSkillSource": "Uma pasta de skill não respondeu, portanto este status pode estar incompleto."
       }
     },
     "i18n": {
@@ -14273,7 +14466,8 @@
         }
       },
       "ephemeralVmWorkspaceTarget": {
-        "projectRootRegistrationFailed": "Falha ao registrar a raiz do projeto criada pela receita no runtime."
+        "projectRootRegistrationFailed": "Falha ao registrar a raiz do projeto criada pela receita no runtime.",
+        "provisionedRootRequiresSsh": "Ambientes provisionados na raiz atualmente requerem uma conexão SSH direta."
       },
       "feedback": {
         "image": {
@@ -14334,13 +14528,15 @@
           "ambiguousConnection": "O Orca não consegue determinar qual conexão SSH é dona deste escopo de pasta.",
           "missing": "O Orca não conseguiu encontrar {{path}}. Remova e reimporte este workspace de pasta.",
           "notDirectory": "{{path}} existe, mas não é uma pasta.",
-          "unavailable": "O Orca não consegue verificar esta pasta agora. Verifique o runtime ou a conexão SSH e tente novamente."
+          "unavailable": "O Orca não consegue verificar esta pasta agora. Verifique o runtime ou a conexão SSH e tente novamente.",
+          "unrecognized": "O Orca não consegue usar {{path}}, e esta versão não reconhece o motivo. Atualize o Orca para ver os detalhes."
         },
         "title": {
           "ambiguousConnection": "Não é possível determinar a conexão",
           "missing": "Pasta não encontrada",
           "notDirectory": "O caminho não é uma pasta",
-          "unavailable": "Não é possível verificar a pasta"
+          "unavailable": "Não é possível verificar a pasta",
+          "unrecognized": "A pasta não pode ser utilizada"
         }
       },
       "launch": {
@@ -14447,7 +14643,12 @@
             "f91fe27f2a": "Dividir uma mudança grande em PRs menores",
             "handoffSummary": "Transferir a responsabilidade para outro agente com contexto suficiente para continuar.",
             "prSplitSummary": "Dê a cada agente filho seu próprio worktree para que a implementação paralela continue revisável.",
-            "worktreeHandoffSummary": "Transferir o trabalho para um agente que já está em execução em outra branch."
+            "worktreeHandoffSummary": "Transferir o trabalho para um agente que já está em execução em outra branch.",
+            "handoffPrompt": "Use {{orchestrationCommand}} para repassar esta tarefa de configurações de faturamento para o agente Claude ocioso. Inclua o objetivo, o contexto atual e o que deve ser finalizado a seguir.",
+            "worktreeHandoffPrompt": "Use {{orchestrationCommand}} para repassar esta limpeza de configurações para o agente no worktree settings-polish. Envie o objetivo, os arquivos relevantes e o resultado esperado.",
+            "childSequencePrompt": "Use {{orchestrationCommand}} para executar esta refatoração de autenticação em fases: planejamento, backend, interface e testes. Inicie cada agente filho após a conclusão da fase anterior.",
+            "childParallelPrompt": "Use {{orchestrationCommand}} para dividir esta refatoração de autenticação entre agentes filhos paralelos: contrato da API, chamadas no backend, fluxo de interface e lacunas de teste.",
+            "prSplitPrompt": "Use {{orchestrationCommand}} para dividir esta atualização de onboarding em PRs menores, cada uma em seu próprio worktree filho: estado de configuração, interface de configurações, textos e testes."
           }
         }
       },
@@ -14552,6 +14753,14 @@
               "64555d0014": "Nenhuma branch base encontrada"
             }
           }
+        },
+        "browser": {
+          "tab": {
+            "open": {
+              "urlFailed": "Não foi possível abrir a URL.",
+              "searchFailed": "Não foi possível pesquisar com {{value0}}."
+            }
+          }
         }
       },
       "worktree": {
@@ -14587,6 +14796,12 @@
         "timedOut": "O tempo limite de carregamento do log de tarefas do GitLab foi excedido.",
         "loadFailed": "Falha ao carregar o log de tarefas do GitLab.",
         "emptyTrace": "Nenhum log está disponível para este trabalho do GitLab."
+      },
+      "githubCheckDetailsTimeout": {
+        "timedOut": "Tempo limite esgotado ao carregar detalhes da verificação."
+      },
+      "gitlabIpcTimeout": {
+        "timedOut": "Tempo limite esgotado ao comunicar com o GitLab."
       }
     },
     "store": {
@@ -14601,7 +14816,9 @@
           "checkRunDetailsLoadFailed": "Falha ao carregar os detalhes da verificação.",
           "checkRunDetailsUnavailable": "Nenhum detalhe disponível para essa verificação.",
           "dcb521ed29": "Esse arquivo está em estado de conflito, mas não há arquivo na working tree disponível para editar.",
-          "f2e00db373": "Arquivo não encontrado: {{value0}}"
+          "f2e00db373": "Arquivo não encontrado: {{value0}}",
+          "conflictPlaceholderGuidance": "Resolva o conflito no Git ou restaure uma das versões antes de reabrir.",
+          "checkRunDetailsRepoUnavailable": "Detalhes do repositório indisponíveis para esta verificação."
         },
         "github": {
           "683a21264b": "A linha não tem owner/repo/number.",
@@ -14688,7 +14905,10 @@
         "workspace": {
           "cleanup": {
             "9d6e531da6": "O workspace não existe mais.",
-            "changedSinceConfirmation": "O workspace mudou depois da confirmação. Atualize para revisar antes de remover."
+            "changedSinceConfirmation": "O workspace mudou depois da confirmação. Atualize para revisar antes de remover.",
+            "hostCollision": "Erro: este workspace existe em múltiplos hosts no mesmo caminho",
+            "hostUnresolved": "O Orca não consegue determinar qual host possui este workspace. Atualize os projetos e revise novamente.",
+            "gitStatusUnavailable": "O Orca não conseguiu verificar o status git deste workspace. Tente novamente ou remova-o da barra lateral ou lista de projetos do host."
           }
         },
         "worktrees": {
@@ -14825,11 +15045,75 @@
       "proceedUnsafe": "Continuar mesmo assim (inseguro)",
       "retry": "Tentar novamente",
       "trustedCertificateGuidance": "Para desenvolvimento local, use um certificado local confiável quando possível.",
-      "tryHttps": "Tentar HTTPS"
+      "tryHttps": "Tentar HTTPS",
+      "sshRoutedHint": "Esta página navega pelo host SSH do workspace — o host pode estar desconectado ou sem acesso a este site.",
+      "recheckSshRoute": "Verificar conexão"
     },
     "guestRecovery": {
       "title": "Página do navegador parada",
       "failed": "A página do navegador parou inesperadamente. Tente restaurá-lo novamente."
+    },
+    "clientHosted": {
+      "preparationFailed": "Não foi possível iniciar o navegador remoto neste desktop. Verifique a conexão pareada e tente novamente.",
+      "unavailableTitle": "Navegador hospedado no cliente indisponível",
+      "unavailableDescription": "Esta página está vinculada a outro desktop ou não está mais disponível.",
+      "download": {
+        "completed": "Download concluído {{filename}}",
+        "failed": "Falha no download"
+      },
+      "popupBlocked": "Pop-up bloqueado {{origin}}",
+      "hostPaneOfflineTitle": "Esse dispositivo não está mais conectado",
+      "hostPaneNamedTitle": "Exibindo em {{device}}",
+      "hostPaneTitle": "Exibindo em outro dispositivo",
+      "hostPaneOfflineDescription": "Esta página continua na lista para que você possa fechá-la daqui. Ela voltará quando o dispositivo se reconectar.",
+      "hostPaneDescription": "Esta página é renderizada no desktop pareado que a abriu.",
+      "hostRowClose": "Fechar página hospedada",
+      "hostRowCloseFailed": "Não foi possível fechar esta página. O dispositivo que a hospeda pode estar ocupado — tente novamente.",
+      "hostRowOfflineNamed": "Offline — hospedado em {{device}}",
+      "hostRowOffline": "Offline — o dispositivo que hospedava a página foi encerrado",
+      "hostRowNamed": "Hospedado em {{device}}",
+      "hostRow": "Hospedado em outro dispositivo"
+    },
+    "navigation": {
+      "back": "Voltar",
+      "forward": "Avançar",
+      "reload": "Recarregar"
+    },
+    "reopenOnServer": {
+      "action": "Reabrir no servidor",
+      "pending": "Reabrindo no servidor…",
+      "caveat": "Isso abre uma nova página no host remoto no último endereço desta página. O estado de login e outros estados temporários podem ser diferentes, e uma página originada de um envio de formulário será aberta em branco.",
+      "failed": "Não foi possível abrir esta página no host remoto. Verifique a conexão e tente novamente."
+    },
+    "sshRoute": {
+      "preparingTitle": "Preparando rota SSH…",
+      "errorTitle": "Erro na rota SSH",
+      "errorDescription": "As páginas deste workspace navegam pelo host SSH dele, e essa conexão não está disponível no momento.",
+      "retry": "Tentar novamente",
+      "tryAnyway": "Tentar mesmo assim",
+      "browseLocally": "Navegar localmente",
+      "forwardingBlockedTitle": "O servidor SSH bloqueia o tráfego do navegador",
+      "sshUnavailableTitle": "SSH indisponível",
+      "forwardingBlockedDescription": "Este servidor recusa o encaminhamento TCP (geralmente “AllowTcpForwarding no” na configuração do sshd), necessário para navegar por ele. Peça ao administrador para permitir o encaminhamento ou navegue a partir deste dispositivo.",
+      "sshUnavailableDescription": "As páginas deste workspace navegam pelo host SSH dele, e essa conexão não está disponível no momento. Reconecte o host e tente novamente.",
+      "showDetails": "Mostrar detalhes"
+    },
+    "sshEgress": {
+      "routedTooltip": "Roteado via SSH ({{value0}})",
+      "localTooltip": "Navegando a partir deste dispositivo, não de {{value0}}",
+      "localChip": "Local",
+      "routedDetail": "O tráfego de rede e o DNS passam pelo host SSH do workspace.",
+      "localDetail": "As páginas são carregadas a partir desta máquina e da sua rede.",
+      "settingsLink": "Configurações de rede"
+    },
+    "remoteEgress": {
+      "clientHostedTooltip": "Navegando através de {{value0}}",
+      "streamedTooltip": "Navegando em {{value0}}",
+      "clientHostedDetail": "A página é renderizada neste dispositivo. O tráfego de rede e o DNS passam pelo host remoto.",
+      "streamedDetail": "A página é executada no host remoto e transmitida para este dispositivo."
+    },
+    "remote": {
+      "findUnavailable": "A busca na página não está disponível enquanto ela for transmitida do host remoto."
     }
   },
   "components": {
@@ -14921,7 +15205,11 @@
         "toggleOption": "Alternar {{value0}}",
         "uploadingAttachments": "Enviando {{value0}} arquivo(s) para o remoto…",
         "valueUnknown": "Valor atual desconhecido — escolha Ativado ou Desativado",
-        "worktreeNotReady": "Worktree não está pronto — tente novamente em instantes."
+        "worktreeNotReady": "Worktree não está pronto — tente novamente em instantes.",
+        "pendingAttachmentLimit": "Muitos anexos aguardando. Conclua a mensagem antes de anexar mais.",
+        "viewAttachment": "Ver imagem",
+        "imagePreview": "Visualização da imagem em tamanho real",
+        "imagePreviewUnavailable": "Visualização indisponível"
       },
       "copyMessage": {
         "copied": "Copiado",
@@ -14962,7 +15250,9 @@
         "pairHost": "Pareie um host para ver o histórico de chat do agente."
       },
       "status": {
-        "responding": "O agente está respondendo"
+        "responding": "O agente está respondendo",
+        "workingFor": "Trabalhando há {{value0}}",
+        "workedFor": "Trabalhou por {{value0}}"
       },
       "stop": "Parar o agente",
       "toggle": {
@@ -14974,7 +15264,10 @@
         "countOne": "1 chamada de ferramenta",
         "result": "Resultado",
         "running": "Executando…"
-      }
+      },
+      "structuredSessionCloseFailed": "Não foi possível fechar esta sessão de chat",
+      "structuredSessionLaunchFailed": "Não foi possível abrir o chat do {{value0}}",
+      "structuredSessionCloseFailedDescription": "O terminal permaneceu aberto para que o provedor possa ser recuperado."
     },
     "tab": {
       "bar": {
@@ -15001,7 +15294,38 @@
         },
         "presentationFixtures": {
           "reviewAlphaCleanup": "Revisar limpeza alpha"
+        },
+        "browse": {
+          "noSizes": "Nenhum tamanho de workspace medido ainda.",
+          "noSizesDescription": "Os tamanhos aparecerão após o uso de disco ser medido.",
+          "measureSizes": "Escanear",
+          "measureSizesTitle": "Escanear tamanhos dos workspaces",
+          "measureSizesDescription": "Escaneia o uso de disco para comparar, ordenar e filtrar workspaces por tamanho.",
+          "review": {
+            "open": "Abrir"
+          },
+          "chip": {
+            "none": "Nenhum"
+          }
         }
+      }
+    },
+    "jiraUserPicker": {
+      "select": "Selecionar {{value0}}",
+      "search": "Buscar usuários",
+      "empty": "Nenhum usuário encontrado"
+    },
+    "status": {
+      "bar": {
+        "workspaceSpace": {
+          "otherTopLevelItems": "Outros itens de nível superior ({{value0}})"
+        }
+      }
+    },
+    "cmd-j": {
+      "paletteSessionAge": {
+        "minutes": "{{value0}}min",
+        "underOneMinute": "<1min"
       }
     }
   },
@@ -15052,7 +15376,8 @@
       },
       "reviewChip": "Review: {{state}}",
       "reviewStatus": "Status de PR / MR",
-      "workspaceStatus": "Status do workspace"
+      "workspaceStatus": "Status do workspace",
+      "removeChip": "Remover {{filter}}"
     },
     "placeholder": {
       "description": "É aqui que todos os seus agentes vão aparecer rapidamente. O quadro está chegando em breve.",
@@ -15099,7 +15424,13 @@
         "agentlessWorkspaces": "Workspaces sem agentes",
         "orchestrationLinks": "Links de orquestração",
         "workspaceVisibility": "Conteúdo do mapa",
-        "canvasSummary": "{{shown}} de agentes {{total}} mostrados"
+        "canvasSummary": "{{shown}} de agentes {{total}} mostrados",
+        "orchestrationLinksHidden": "Links de orquestração ocultos",
+        "title": "Controles do mapa",
+        "reset": "Redefinir",
+        "ofTotalAgents": "de {{total}} agentes exibidos",
+        "quickViews": "Visualizações rápidas",
+        "summaryAll": "Todos"
       },
       "liveContainmentMap": "Mapa de contenção ao vivo",
       "empty": "Nenhum agente corresponde aos filtros atuais.",
@@ -15122,6 +15453,12 @@
       "agentCount": "Agentes {{count}}",
       "agentCount_other": "Agentes {{count}}",
       "agentCount_one": "Agente {{count}}"
+    },
+    "host": {
+      "sshNamed": "Host SSH · {{host}}",
+      "ssh": "Host SSH",
+      "remoteNamed": "Host remoto Orca · {{host}}",
+      "remote": "Host remoto Orca"
     }
   },
   "featureTips": {
@@ -15213,6 +15550,20 @@
         "resourceUsageToggleDescription": "Mostra o Gerenciador de Recursos. Clique para ver CPU, memória, sessões, controles do daemon e varreduras de disco do workspace.",
         "sshToggleDescription": "Mostra hosts SSH configurados e hosts Orca remotos quando disponíveis."
       }
+    },
+    "browser": {
+      "clientHostedRemote": {
+        "title": "Hospedar páginas remotas do navegador neste dispositivo",
+        "description": "Renderiza páginas de workspaces remotos neste desktop; o tráfego de rede continua passando pelo host remoto. Aplica-se apenas a novas páginas.",
+        "optionDevice": "Este dispositivo",
+        "optionDeviceTooltip": "As páginas são renderizadas neste desktop, permitindo que entradas e pop-ups funcionem nativamente.",
+        "optionServer": "Servidor (transmitido)",
+        "optionServerTooltip": "As páginas são renderizadas no servidor remoto e transmitidas para este dispositivo."
+      },
+      "sshWorkspaceRouting": {
+        "title": "Navegar pelos hosts de workspaces SSH",
+        "description": "As páginas do navegador em workspaces SSH enviam o tráfego pelo host SSH do workspace, com o DNS resolvido nele. Quando desativado, as páginas navegam a partir desta máquina."
+      }
     }
   },
   "tray": {
@@ -15230,7 +15581,9 @@
       "issue": "Issue",
       "mr": "MR",
       "port": "Porta",
-      "pr": "PR"
+      "pr": "PR",
+      "task": "Tarefa",
+      "automation": "Execução"
     },
     "filter": {
       "emptyTitle": "Nenhum resultado corresponde ao filtro ativo",
@@ -15258,6 +15611,42 @@
       "chipOverflow": "+{{value0}}",
       "activeCount": "{{value0}} ativo"
     },
-    "renderCapOverflow": "{{value0}} mais – role ou continue digitando para restringir"
+    "renderCapOverflow": "{{value0}} mais – role ou continue digitando para restringir",
+    "linearIssue": {
+      "createLabel": "Criar worktree a partir da issue do Linear {{value0}}: {{value1}}",
+      "pendingLabel": "Criar worktree a partir da issue do Linear {{value0}}",
+      "loadingLabel": "Carregando issue do Linear {{value0}}",
+      "createHint": "Criar worktree a partir da issue do Linear",
+      "loadingHint": "Carregando issue do Linear…"
+    },
+    "seeMore": "Ver mais",
+    "taskUrl": {
+      "loadingHint": "Carregando {{value0}}…",
+      "createHint": "Criar worktree a partir de {{value0}}"
+    }
+  },
+  "editor": {
+    "richMarkdown": {
+      "tooLarge": "O arquivo é maior que o limite de {{limit}} para edição avançada. Exibindo em modo de código-fonte.",
+      "openAnyway": "Abrir mesmo assim"
+    }
+  },
+  "githubChecks": {
+    "retrying": "Tentando novamente…"
+  },
+  "quickOpen": {
+    "moreMatchesAvailable": "Mais resultados podem estar disponíveis. Refine sua pesquisa para restringir os resultados."
+  },
+  "checksPanel": {
+    "unlinked": {
+      "title": "Pull request desvinculado",
+      "description": "O PR #{{number}} está oculto para este workspace. Vincule-o novamente para restaurar as verificações e os detalhes de revisão.",
+      "relink": "Vincular PR #{{number}}"
+    }
+  },
+  "sourceControl": {
+    "unlinkedPr": {
+      "status": "PR #{{number}} desvinculado"
+    }
   }
 }
